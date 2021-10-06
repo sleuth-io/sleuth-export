@@ -16,7 +16,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ````
 
-
 Usage
 -----
 
@@ -37,4 +36,5 @@ For example, to create a file called `report.csv` for the `myorg` Sleuth organiz
 python sleuth-export.py --api-key=not-a-real-key --org-slug=myorg report.csv
 ````
 
+To see an example, download the [example report](https://raw.githubusercontent.com/sleuth-io/sleuth-export/master/example.csv)
 
